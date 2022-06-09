@@ -97,7 +97,18 @@ public class AddEditContactActivity extends AppCompatActivity {
             isFavourite = !isFavourite;
             setFavourite();
         });
+
         delete.setOnClickListener(view -> deleteContact());
+
+        share.setOnClickListener(view -> {
+            Intent i=new Intent(Intent.ACTION_SEND);
+            i.setType(firstNameString+" "+lastNameString);
+            i.putExtra(Intent.EXTRA_SUBJECT,"Phone Number");
+            i.putExtra(Intent.EXTRA_TEXT, phoneNumberString);
+            i.putExtra(Intent.EXTRA_SUBJECT,"Email");
+            i.putExtra(Intent.EXTRA_TEXT, emailString);
+            startActivity(Intent.createChooser(i,"Share via"));
+        });
     }
 
     private void getUI(){

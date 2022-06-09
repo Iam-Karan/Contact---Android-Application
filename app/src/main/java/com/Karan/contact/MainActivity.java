@@ -12,11 +12,13 @@ import androidx.appcompat.widget.SearchView;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.Karan.contact.Adapter.ContactRecyclerview;
 import com.Karan.contact.Adapter.FavouriteAdapter;
 import com.Karan.contact.Model.ContactModel;
+import com.google.android.material.progressindicator.CircularProgressIndicator;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -26,6 +28,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
+    private LinearLayout circularProgressIndicator;
     private ImageButton addContact;
     private SearchView searchView;
     private RecyclerView recyclerView, favRecyclerView;
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        circularProgressIndicator = findViewById(R.id.progress_circular);
         searchView = findViewById(R.id.home_screen_searchView);
         addContact = findViewById(R.id.add_contact);
         recyclerView = findViewById(R.id.home_recyclerview);
@@ -114,6 +118,7 @@ public class MainActivity extends AppCompatActivity {
                     favRecyclerView.setLayoutManager(favLayoutManager);
                     favRecyclerView.setItemAnimator(new DefaultItemAnimator());
                     favRecyclerView.setAdapter(favAdapter);
+                    circularProgressIndicator.setVisibility(View.GONE);
                 });
     }
 }

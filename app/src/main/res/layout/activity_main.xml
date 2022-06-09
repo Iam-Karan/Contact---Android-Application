@@ -43,6 +43,22 @@
         android:background="@drawable/rouned_bg"
         app:searchIcon="@drawable/ic_round_search_24"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/progress_circular">
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:indicatorColor="@color/white"
+            app:trackColor="@color/white"
+            android:outlineAmbientShadowColor="@android:color/holo_green_light"
+            android:outlineSpotShadowColor="@android:color/holo_green_light"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:layout_marginTop="10dp"
         android:id="@+id/fav_recyclerview"
