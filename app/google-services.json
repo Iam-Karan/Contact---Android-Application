@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920332388641",
+    "project_id": "contact-app-5e6ab",
+    "storage_bucket": "contact-app-5e6ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920332388641:android:4f73e4c8678f6d17001660",
+        "android_client_info": {
+          "package_name": "com.Karan.contact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920332388641-p652t3e0h804j7n9sv9c3nshnso5s0sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWVvYJrSAHI4I_C8YmNO5Qr-Jw29GGXFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920332388641-p652t3e0h804j7n9sv9c3nshnso5s0sb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

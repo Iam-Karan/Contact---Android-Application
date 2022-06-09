@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contact</string>
+    <string-array name="dropdown_item">
+        <item>Select</item>
+        <item>Favourite</item>
+        <item>Available</item>
+        <item>Low to High</item>
+        <item>High to Low</item>
+    </string-array>
+</resources>

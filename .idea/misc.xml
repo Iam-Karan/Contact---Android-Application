@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/black_button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/black_round_bg.xml" value="0.1" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/blue_buttun_bg.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/home_screen_bg.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_baseline_ios_share_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_launcher_background.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_outline_videocam_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_add_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_add_photo_alternate_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_arrow_back_ios_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_favorite_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_favorite_border_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_filter_list_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/ic_round_search_24.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/rouned_bg.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/spinner_bg.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/drawable/white_round_bg.xml" value="0.158" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/layout/activity_add_edit_contact.xml" value="0.25" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/layout/contact_card.xml" value="0.25" />
+        <entry key="..\:/Users/patel/AndroidStudioProjects/Contact/app/src/main/res/layout/favourite_card.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
